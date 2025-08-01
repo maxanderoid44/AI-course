@@ -1,0 +1,33 @@
+[project]
+name = "simple-ai-project"
+version = "0.1.0"
+description = "A simple email spam classifier using machine learning"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=3.6.0",
+    "gradio>=5.34.2",
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.10.3",
+    "numpy>=1.26.0",
+    "pandas>=2.3.0",
+    "pillow>=11.2.1",
+    "scikit-learn>=1.7.0",
+    "streamlit>=1.46.0",
+    "torch>=2.7.1",
+    "torchvision>=0.22.1",
+    "transformers>=4.52.4",
+    "tensorflow==2.17.0",
+    "tensorflow-intel==2.17.0",
+    "opencv-python==4.10.0.84",
+    "keras>=3.10.0",
+    "mlcroissant>=1.0.20",
+    "seaborn>=0.13.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.4.1",
+    "black>=25.1.0",
+     "flask>=3.1.1",
+]
